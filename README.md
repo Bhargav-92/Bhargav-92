@@ -22,7 +22,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://codepen.io/bunny-thakar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="bunny-thakar" height="30" width="40" /></a>
-<a href="[bhargav thakar](https://dev.to/tkrbhargav)" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="bhargav thakar" height="30" width="40" /></a>
+<a href="[https://dev.to/tkrbhargav](https://dev.to/tkrbhargav)" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="bhargav thakar" height="30" width="40" /></a>
 <a href="https://twitter.com/tkrbhargav" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="tkrbhargav" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/bhargav thakar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="bhargav thakar" height="30" width="40" /></a>
 <a href="https://fb.com/bhargav thakar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="bhargav thakar" height="30" width="40" /></a>
