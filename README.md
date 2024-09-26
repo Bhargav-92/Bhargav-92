@@ -5,9 +5,9 @@
 
 <p align="left"> <a href="https://twitter.com/tkrbhargav" target="blank"><img src="https://img.shields.io/twitter/follow/tkrbhargav?logo=twitter&style=for-the-badge" alt="tkrbhargav" /></a> </p>
 
-- 🔭 I’m currently working on **Customer-Complaint System**
 
-- 🌱 I’m currently learning **Next JS, Node JS, MongoDB**
+
+- 🌱 I’m currently learning **Next JS, PostgreSQL**
 
 - 👨‍💻 All of my projects are available at [https://nextapp-portfolio.vercel.app/](https://nextapp-portfolio.vercel.app/)
 
