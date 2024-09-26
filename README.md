@@ -13,8 +13,6 @@
 
 - 💬 Ask me about **React JS, Material UI, Tailwind UI, JavaScript**
 
-- 📫 How to reach me **tkr.bhargav92@gmail.com**
-
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
