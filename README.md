@@ -9,13 +9,7 @@
 
 - 🌱 I’m currently learning **Next JS, PostgreSQL**
 
-- 👨‍💻 All of my projects are available at [https://nextapp-portfolio.vercel.app/](https://nextapp-portfolio.vercel.app/)
-
 - 💬 Ask me about **React JS, Material UI, Tailwind UI, JavaScript**
-
-### Blogs posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
