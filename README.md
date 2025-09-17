@@ -6,9 +6,6 @@
 <p align="left"> <a href="https://twitter.com/tkrbhargav" target="blank"><img src="https://img.shields.io/twitter/follow/tkrbhargav?logo=twitter&style=for-the-badge" alt="tkrbhargav" /></a> </p>
 
 
-
-- 💬 Ask me about **React JS, Material UI, Tailwind UI, JavaScript**
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://codepen.io/bunny-thakar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="bunny-thakar" height="30" width="40" /></a>
