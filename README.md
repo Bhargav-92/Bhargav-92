@@ -7,8 +7,6 @@
 
 
 
-- 🌱 I’m currently learning **Next JS, PostgreSQL**
-
 - 💬 Ask me about **React JS, Material UI, Tailwind UI, JavaScript**
 
 <h3 align="left">Connect with me:</h3>
