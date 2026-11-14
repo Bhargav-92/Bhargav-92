@@ -25,6 +25,7 @@
     <td width="50%" valign="top">
 
 
+
 <h3>Connect with me</h3>
 
 <p align="left">
@@ -40,6 +41,7 @@
     <img src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/linkedin.svg" width="28" height="28" alt="LinkedIn" />
   </a>
 </p>
+
 
 
 <p>
