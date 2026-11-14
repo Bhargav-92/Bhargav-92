@@ -1,17 +1,76 @@
-<h1 align="center">Hi 👋, I'm Bhargav Thakar</h1>
-<h3 align="center">A passionate Frontend Web-Developer from India</h3>
+name: git-profile-koi
+description:
+  Draw a GitHub account's koi from its public activity as a looping GIF, a still
+  PNG, and a preview, for a profile README.
+branding:
+  icon: droplet
+  color: blue
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=bhargav-92&label=Profile%20views&color=0e75b6&style=flat" alt="bhargav-92" /> </p>
+inputs:
+  login:
+    description: Account whose koi to draw.
+    default: ${{ github.repository_owner }}
+  body:
+    description: Body color, one of white, black, asagi, tea, gold, or platinum.
+    default: white
+  output-dir:
+    description:
+      Folder, relative to the workspace, that receives koi.gif, koi.png, and
+      preview.html.
+    default: koi
+  token:
+    description:
+      Token for reading the account's public data; the built-in token is enough.
+    default: ${{ github.token }}
 
-<p align="left"> <a href="https://twitter.com/tkrbhargav" target="blank"><img src="https://img.shields.io/twitter/follow/tkrbhargav?logo=twitter&style=for-the-badge" alt="tkrbhargav" /></a> </p>
-
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://codepen.io/bunny-thakar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="bunny-thakar" height="30" width="40" /></a>
-<a href="https://dev.to/tkrbhargav" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="bhargav thakar" height="30" width="40" /></a>
-<a href="https://twitter.com/tkrbhargav" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="bhargav thakar" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/bhargav-thakar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="bhargav thakar" height="30" width="40" /></a>
-
-
-
+runs:
+  using: composite
+  steps:
+    - name: Download the git-koi release this Action belongs to
+      shell: bash
+      env:
+        GH_TOKEN: ${{ inputs.token }}
+      run: |
+        version=$(grep -m1 '^version' "$GITHUB_ACTION_PATH/Cargo.toml" | cut -d'"' -f2)
+        repository=$(grep -m1 '^repository' "$GITHUB_ACTION_PATH/Cargo.toml" | cut -d'"' -f2)
+        case "$RUNNER_OS-$RUNNER_ARCH" in
+          Linux-X64) target=x86_64-unknown-linux-musl ;;
+          Linux-ARM64) target=aarch64-unknown-linux-musl ;;
+          macOS-X64) target=x86_64-apple-darwin ;;
+          macOS-ARM64) target=aarch64-apple-darwin ;;
+          *)
+            echo "git-koi has no build for $RUNNER_OS $RUNNER_ARCH; use ubuntu-latest" >&2
+            exit 1
+            ;;
+        esac
+        archive="git-koi-$version-$target.tar.gz"
+        install_dir="$RUNNER_TEMP/git-koi"
+        mkdir -p "$install_dir"
+        if ! gh release download "v$version" --repo "$repository" --dir "$install_dir" \
+            --pattern "$archive" --pattern "$archive.sha256"; then
+          echo "release v$version has no asset $archive; reference the Action at a release tag" >&2
+          exit 1
+        fi
+        cd "$install_dir"
+        if command -v sha256sum > /dev/null; then
+          sha256sum -c "$archive.sha256"
+        else
+          shasum -a 256 -c "$archive.sha256"
+        fi
+        tar -xzf "$archive"
+        echo "$install_dir/git-koi-$version-$target" >> "$GITHUB_PATH"
+    - name: Collect the account snapshot
+      shell: bash
+      env:
+        GH_TOKEN: ${{ inputs.token }}
+        KOI_LOGIN: ${{ inputs.login }}
+      run:
+        git-koi collect "$KOI_LOGIN" --output "$RUNNER_TEMP/koi-snapshot.json"
+    - name: Render the koi
+      shell: bash
+      env:
+        KOI_BODY: ${{ inputs.body }}
+        KOI_OUTPUT_DIR: ${{ inputs.output-dir }}
+      run:
+        git-koi render "$RUNNER_TEMP/koi-snapshot.json" --output-dir
+        "$KOI_OUTPUT_DIR" --body "$KOI_BODY"
