@@ -35,10 +35,6 @@
 
 
 
-
-
-
-
 <p>
   Building modern, scalable and user-friendly
   web applications with React, Next.js
@@ -53,10 +49,6 @@
   width="256"
   alt="My GitHub Koi"
 />
-
-<p align="center">
-  <strong>My GitHub Koi</strong>
-</p>
 
    </td>
   </tr>
