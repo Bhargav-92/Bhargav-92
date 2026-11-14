@@ -1,76 +1,38 @@
-name: git-profile-koi
-description:
-  Draw a GitHub account's koi from its public activity as a looping GIF, a still
-  PNG, and a preview, for a profile README.
-branding:
-  icon: droplet
-  color: blue
+# Copy into your profile repository as .github/workflows/koi.yml, then embed
+# <img src="koi/koi.gif" width="256" alt="My koi"> in its README.md.
+name: Koi
 
-inputs:
-  login:
-    description: Account whose koi to draw.
-    default: ${{ github.repository_owner }}
-  body:
-    description: Body color, one of white, black, asagi, tea, gold, or platinum.
-    default: white
-  output-dir:
-    description:
-      Folder, relative to the workspace, that receives koi.gif, koi.png, and
-      preview.html.
-    default: koi
-  token:
-    description:
-      Token for reading the account's public data; the built-in token is enough.
-    default: ${{ github.token }}
+on:
+  schedule:
+    # Just after midnight UTC, so the koi shows the day that just ended.
+    - cron: "20 0 * * *"
+  workflow_dispatch:
+  push:
+    paths: [.github/workflows/koi.yml]
 
-runs:
-  using: composite
-  steps:
-    - name: Download the git-koi release this Action belongs to
-      shell: bash
-      env:
-        GH_TOKEN: ${{ inputs.token }}
-      run: |
-        version=$(grep -m1 '^version' "$GITHUB_ACTION_PATH/Cargo.toml" | cut -d'"' -f2)
-        repository=$(grep -m1 '^repository' "$GITHUB_ACTION_PATH/Cargo.toml" | cut -d'"' -f2)
-        case "$RUNNER_OS-$RUNNER_ARCH" in
-          Linux-X64) target=x86_64-unknown-linux-musl ;;
-          Linux-ARM64) target=aarch64-unknown-linux-musl ;;
-          macOS-X64) target=x86_64-apple-darwin ;;
-          macOS-ARM64) target=aarch64-apple-darwin ;;
-          *)
-            echo "git-koi has no build for $RUNNER_OS $RUNNER_ARCH; use ubuntu-latest" >&2
-            exit 1
-            ;;
-        esac
-        archive="git-koi-$version-$target.tar.gz"
-        install_dir="$RUNNER_TEMP/git-koi"
-        mkdir -p "$install_dir"
-        if ! gh release download "v$version" --repo "$repository" --dir "$install_dir" \
-            --pattern "$archive" --pattern "$archive.sha256"; then
-          echo "release v$version has no asset $archive; reference the Action at a release tag" >&2
-          exit 1
-        fi
-        cd "$install_dir"
-        if command -v sha256sum > /dev/null; then
-          sha256sum -c "$archive.sha256"
-        else
-          shasum -a 256 -c "$archive.sha256"
-        fi
-        tar -xzf "$archive"
-        echo "$install_dir/git-koi-$version-$target" >> "$GITHUB_PATH"
-    - name: Collect the account snapshot
-      shell: bash
-      env:
-        GH_TOKEN: ${{ inputs.token }}
-        KOI_LOGIN: ${{ inputs.login }}
-      run:
-        git-koi collect "$KOI_LOGIN" --output "$RUNNER_TEMP/koi-snapshot.json"
-    - name: Render the koi
-      shell: bash
-      env:
-        KOI_BODY: ${{ inputs.body }}
-        KOI_OUTPUT_DIR: ${{ inputs.output-dir }}
-      run:
-        git-koi render "$RUNNER_TEMP/koi-snapshot.json" --output-dir
-        "$KOI_OUTPUT_DIR" --body "$KOI_BODY"
+permissions:
+  contents: write
+
+concurrency: koi
+
+jobs:
+  koi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: yalongwastaken/git-koi@v1
+        with:
+          body: white
+          output-dir: koi
+      - name: Commit the koi if it changed
+        shell: bash
+        run: |
+          git add koi/koi.gif
+          if git diff --cached --quiet; then
+            echo "The koi is unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --quiet --message "koi: draw the day's koi"
+          git push --quiet
