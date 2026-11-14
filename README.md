@@ -40,9 +40,14 @@
 
 <h3 align="center">GitHub Statistics</h3>
 
+
+<h3 align="center">GitHub Statistics</h3>
+
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=Bhargav-92&show_icons=true&theme=tokyonight&hide_border=true"
+    src="https://github-stats-extended.vercel.app/api?username=Bhargav-92&show_icons=true&theme=tokyonight&hide_border=true"
     alt="Bhargav's GitHub Stats"
+    width="450"
   />
 </p>
+
