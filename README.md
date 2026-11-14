@@ -1,5 +1,6 @@
 
 <h1 align="center">Hi 👋, I'm Bhargav Thakar</h1>
+
 <h3 align="center">
   A passionate Frontend Web Developer from India
 </h3>
@@ -11,35 +12,31 @@
   />
 </p>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
+<h3 align="left">Connect with me</h3>
 
-### Connect with me
+<img
+  align="right"
+  src="koi/koi.gif"
+  width="256"
+  alt="My GitHub Koi"
+/>
 
-<a href="https://codepen.io/bunny-thakar">
-  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" width="40" height="30" />
-</a>
-<a href="https://dev.to/tkrbhargav">
-  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" width="40" height="30" />
-</a>
-<a href="https://twitter.com/tkrbhargav">
-  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" width="40" height="30" />
-</a>
-<a href="https://linkedin.com/in/bhargav-thakar-378700220">
-  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" width="40" height="30" />
-</a>
+<p align="left">
+  <a href="https://codepen.io/bunny-thakar">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" width="40" height="30" />
+  </a>
+  <a href="https://dev.to/tkrbhargav">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" width="40" height="30" />
+  </a>
+  <a href="https://twitter.com/tkrbhargav">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" width="40" height="30" />
+  </a>
+  <a href="https://linkedin.com/in/bhargav-thakar-378700220">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" width="40" height="30" />
+  </a>
+</p>
 
-   </td>
-   <td width="50%" align="center" valign="top">
-
-### My GitHub Koi
-
-<img src="koi/koi.gif" width="256" alt="My GitHub Koi" />
-
-   </td>
-  </tr>
-</table>
+<br clear="both" />
 
 <h3 align="center">GitHub Statistics</h3>
 
