@@ -24,45 +24,23 @@
   <tr>
     <td width="50%" valign="top">
 
+
 <h3>Connect with me</h3>
 
-<p>
+<p align="left">
   <a href="https://github.com/Bhargav-92">
-    <img
-      src="https://cdn.simpleicons.org/github/70A5FD"
-      width="28"
-      height="28"
-      alt="GitHub"
-    />
+    <img src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/github.svg" width="28" height="28" alt="GitHub" />
   </a>
   &nbsp;
   <a href="https://twitter.com/tkrbhargav">
-    <img
-      src="https://cdn.simpleicons.org/x/70A5FD"
-      width="28"
-      height="28"
-      alt="X"
-    />
+    <img src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/twitter.svg" width="28" height="28" alt="Twitter" />
   </a>
   &nbsp;
   <a href="https://linkedin.com/in/bhargav-thakar-378700220">
-    <img
-      src="https://cdn.simpleicons.org/linkedin/70A5FD"
-      width="28"
-      height="28"
-      alt="LinkedIn"
-    />
-  </a>
-  &nbsp;
-  <a href="https://dev.to/tkrbhargav">
-    <img
-      src="https://cdn.simpleicons.org/devdotto/70A5FD"
-      width="28"
-      height="28"
-      alt="Dev.to"
-    />
+    <img src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/linkedin.svg" width="28" height="28" alt="LinkedIn" />
   </a>
 </p>
+
 
 <p>
   Building modern, scalable and user-friendly
