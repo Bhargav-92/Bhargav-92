@@ -18,6 +18,16 @@
 
 <br />
 
+<div align="center">
+  <h3>GitHub Statistics</h3>
+
+  <img
+    src="https://github-stats-extended.vercel.app/api?username=Bhargav-92&show_icons=true&hide_rank=false&theme=tokyonight&hide_border=true"
+    width="495"
+    alt="GitHub Statistics"
+  />
+</div>
+
 <!-- ================= SOCIAL + KOI ================= -->
 
 <table width="100%">
@@ -58,17 +68,8 @@
 
 <!-- ================= GITHUB STATS ================= -->
 
-<div align="center">
 
-  <h3>GitHub Statistics</h3>
 
-  <img
-    src="https://github-stats-extended.vercel.app/api?username=Bhargav-92&show_icons=true&hide_rank=false&theme=tokyonight&hide_border=true&bg_color=1A1B27&title_color=70A5FD&text_color=38BDAE&icon_color=BF91F3"
-    width="495"
-    alt="Bhargav's GitHub Statistics"
-  />
-
-</div>
 
 <!-- ================= FOOTER ================= -->
 
