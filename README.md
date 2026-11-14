@@ -28,19 +28,14 @@
 
 <h3>Connect with me</h3>
 
-<p align="left">
-  <a href="https://github.com/Bhargav-92">
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/github.svg" width="28" height="28" alt="GitHub" />
-  </a>
-  &nbsp;
-  <a href="https://twitter.com/tkrbhargav">
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/twitter.svg" width="28" height="28" alt="Twitter" />
-  </a>
-  &nbsp;
-  <a href="https://linkedin.com/in/bhargav-thakar-378700220">
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/linkedin.svg" width="28" height="28" alt="LinkedIn" />
-  </a>
-</p>
+<a href="https://codepen.io/bunny-thakar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="bunny-thakar" height="30" width="40" /></a>
+<a href="https://dev.to/tkrbhargav" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="bhargav thakar" height="30" width="40" /></a>
+<a href="https://twitter.com/tkrbhargav" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="bhargav thakar" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/bhargav-thakar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="bhargav thakar" height="30" width="40" /></a>
+
+
+
+
 
 
 
