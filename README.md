@@ -1,56 +1,114 @@
 
+<!-- ================= HEADER ================= -->
+
 <div align="center">
 
-<h1>Hi 👋, I'm Bhargav Thakar</h1>
+  <h1>Hi 👋, I'm Bhargav Thakar</h1>
 
-<h3>A passionate Frontend Web Developer from India</h3>
+  <p>
+    <strong>Frontend Web Developer · India</strong>
+  </p>
 
-<img src="https://komarev.com/ghpvc/?username=bhargav-92&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+  <img
+    src="https://komarev.com/ghpvc/?username=Bhargav-92&label=Profile%20Views&color=70A5FD&style=flat"
+    alt="Profile Views"
+  />
 
 </div>
 
 <br />
 
+<!-- ================= SOCIAL + KOI ================= -->
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+
+<h3>Connect with me</h3>
+
+<p>
+  <a href="https://github.com/Bhargav-92">
+    <img
+      src="https://cdn.simpleicons.org/github/70A5FD"
+      width="28"
+      height="28"
+      alt="GitHub"
+    />
+  </a>
+  &nbsp;
+  <a href="https://twitter.com/tkrbhargav">
+    <img
+      src="https://cdn.simpleicons.org/x/70A5FD"
+      width="28"
+      height="28"
+      alt="X"
+    />
+  </a>
+  &nbsp;
+  <a href="https://linkedin.com/in/bhargav-thakar-378700220">
+    <img
+      src="https://cdn.simpleicons.org/linkedin/70A5FD"
+      width="28"
+      height="28"
+      alt="LinkedIn"
+    />
+  </a>
+  &nbsp;
+  <a href="https://dev.to/tkrbhargav">
+    <img
+      src="https://cdn.simpleicons.org/devdotto/70A5FD"
+      width="28"
+      height="28"
+      alt="Dev.to"
+    />
+  </a>
+</p>
+
+<p>
+  Building modern, scalable and user-friendly
+  web applications with React, Next.js
+  and TypeScript.
+</p>
+
+   </td>
+   <td width="50%" align="right" valign="top">
+
 <img
-  align="right"
   src="koi/koi.gif"
   width="256"
   alt="My GitHub Koi"
 />
 
-<h3>Connect with me</h3>
-
-<p>
-  <a href="https://codepen.io/bunny-thakar">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" width="35" />
-  </a>
-  <a href="https://dev.to/tkrbhargav">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" width="35" />
-  </a>
-  <a href="https://twitter.com/tkrbhargav">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" width="35" />
-  </a>
-  <a href="https://linkedin.com/in/bhargav-thakar-378700220">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" width="35" />
-  </a>
+<p align="center">
+  <strong>My GitHub Koi</strong>
 </p>
 
-<br clear="both" />
+   </td>
+  </tr>
+</table>
 
-<h3 align="center">GitHub Statistics</h3>
+<br />
 
-<p align="center">
+<!-- ================= GITHUB STATS ================= -->
+
+<div align="center">
+
+  <h3>GitHub Statistics</h3>
+
   <img
-    src="https://github.com/Bhargav-92.png"
-    width="90"
-    alt="GitHub Avatar"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://github-stats-extended.vercel.app/api?username=Bhargav-92&show_icons=true&hide_rank=false&theme=tokyonight&hide_border=true"
+    src="https://github-stats-extended.vercel.app/api?username=Bhargav-92&show_icons=true&hide_rank=false&theme=tokyonight&hide_border=true&bg_color=1A1B27&title_color=70A5FD&text_color=38BDAE&icon_color=BF91F3"
     width="495"
-    alt="GitHub Statistics"
+    alt="Bhargav's GitHub Statistics"
   />
-</p>
+
+</div>
+
+<!-- ================= FOOTER ================= -->
+
+<br />
+
+<div align="center">
+
+  <sub>Built with passion by Bhargav Thakar</sub>
+
+</div>
