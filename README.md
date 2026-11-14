@@ -32,19 +32,19 @@
   <tr>
     <td width="50%" valign="top">
       <h3>Repositories</h3>
-      <p><img src="https://raw.githubusercontent.com/primer/octicons/main/icons/repo-16.svg" width="16" height="16" alt="" /> <strong>N/A</strong> Repositories</p>
-      <p><img src="https://raw.githubusercontent.com/primer/octicons/main/icons/star-16.svg" width="16" height="16" alt="" /> <strong>N/A</strong> Stars earned</p>
-      <p><img src="https://raw.githubusercontent.com/primer/octicons/main/icons/repo-forked-16.svg" width="16" height="16" alt="" /> <strong>N/A</strong> Forks</p>
-      <p><img src="https://raw.githubusercontent.com/primer/octicons/main/icons/tag-16.svg" width="16" height="16" alt="" /> <strong>N/A</strong> Releases</p>
-      <p><img src="https://raw.githubusercontent.com/primer/octicons/main/icons/package-16.svg" width="16" height="16" alt="" /> <strong>N/A</strong> Packages</p>
+      <p><img src="https://raw.githubusercontent.com/primer/octicons/main/icons/repo-16.svg" width="16" height="16" alt="" style="filter: brightness(0) invert(1); vertical-align: middle;" /> <strong>N/A</strong> Repositories</p>
+      <p><img src="https://raw.githubusercontent.com/primer/octicons/main/icons/star-16.svg" width="16" height="16" alt="" style="filter: brightness(0) invert(1); vertical-align: middle;" /> <strong>N/A</strong> Stars earned</p>
+      <p><img src="https://raw.githubusercontent.com/primer/octicons/main/icons/repo-forked-16.svg" width="16" height="16" alt="" style="filter: brightness(0) invert(1); vertical-align: middle;" /> <strong>N/A</strong> Forks</p>
+      <p><img src="https://raw.githubusercontent.com/primer/octicons/main/icons/tag-16.svg" width="16" height="16" alt="" style="filter: brightness(0) invert(1); vertical-align: middle;" /> <strong>N/A</strong> Releases</p>
+      <p><img src="https://raw.githubusercontent.com/primer/octicons/main/icons/package-16.svg" width="16" height="16" alt="" style="filter: brightness(0) invert(1); vertical-align: middle;" /> <strong>N/A</strong> Packages</p>
     </td>
     <td width="50%" valign="top">
-      <h3>Activity</h3>
-      <p><img src="https://raw.githubusercontent.com/primer/octicons/main/icons/git-commit-16.svg" width="16" height="16" alt="" /> <strong>N/A</strong> Commits</p>
-      <p><img src="https://raw.githubusercontent.com/primer/octicons/main/icons/git-pull-request-16.svg" width="16" height="16" alt="" /> <strong>N/A</strong> Pull requests reviewed</p>
-      <p><img src="https://raw.githubusercontent.com/primer/octicons/main/icons/git-pull-request-16.svg" width="16" height="16" alt="" /> <strong>N/A</strong> Pull requests opened</p>
-      <p><img src="https://raw.githubusercontent.com/primer/octicons/main/icons/issue-opened-16.svg" width="16" height="16" alt="" /> <strong>N/A</strong> Issues opened</p>
-      <p><img src="https://raw.githubusercontent.com/primer/octicons/main/icons/comment-discussion-16.svg" width="16" height="16" alt="" /> <strong>N/A</strong> Issue comments</p>
+      <h3>Activity <small>(last 90 days)</small></h3>
+      <p><img src="https://raw.githubusercontent.com/primer/octicons/main/icons/git-commit-16.svg" width="16" height="16" alt="" style="filter: brightness(0) invert(1); vertical-align: middle;" /> <strong>N/A</strong> Commits</p>
+      <p><img src="https://raw.githubusercontent.com/primer/octicons/main/icons/git-pull-request-16.svg" width="16" height="16" alt="" style="filter: brightness(0) invert(1); vertical-align: middle;" /> <strong>N/A</strong> Pull requests reviewed</p>
+      <p><img src="https://raw.githubusercontent.com/primer/octicons/main/icons/git-pull-request-16.svg" width="16" height="16" alt="" style="filter: brightness(0) invert(1); vertical-align: middle;" /> <strong>N/A</strong> Pull requests opened</p>
+      <p><img src="https://raw.githubusercontent.com/primer/octicons/main/icons/issue-opened-16.svg" width="16" height="16" alt="" style="filter: brightness(0) invert(1); vertical-align: middle;" /> <strong>N/A</strong> Issues opened</p>
+      <p><img src="https://raw.githubusercontent.com/primer/octicons/main/icons/comment-discussion-16.svg" width="16" height="16" alt="" style="filter: brightness(0) invert(1); vertical-align: middle;" /> <strong>N/A</strong> Issue comments</p>
     </td>
   </tr>
 </table>
