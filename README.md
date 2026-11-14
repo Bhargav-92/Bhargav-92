@@ -1,25 +1,16 @@
 
 <h1 align="center">Hi 👋, I'm Bhargav Thakar</h1>
-
 <h3 align="center">
   A passionate Frontend Web Developer from India
 </h3>
 
 <p align="center">
-  <img
-    src="https://komarev.com/ghpvc/?username=bhargav-92&label=Profile%20views&color=0e75b6&style=flat"
-    alt="Profile Views"
-  />
+  <img src="https://komarev.com/ghpvc/?username=bhargav-92&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
 </p>
 
-<h3 align="left">Connect with me</h3>
+<img align="right" src="koi/koi.gif" width="256" alt="My GitHub Koi" />
 
-<img
-  align="right"
-  src="koi/koi.gif"
-  width="256"
-  alt="My GitHub Koi"
-/>
+<h3 align="left">Connect with me</h3>
 
 <p align="left">
   <a href="https://codepen.io/bunny-thakar">
@@ -41,10 +32,9 @@
 <h3 align="center">GitHub Statistics</h3>
 
 <p align="center">
-  <img
-    src="https://github-stats-extended.vercel.app/api?username=Bhargav-92&show_icons=true&theme=tokyonight&hide_border=true"
-    alt="Bhargav's GitHub Stats"
-    width="450"
-  />
+  <img src="https://github.com/Bhargav-92.png" width="85" alt="Bhargav's GitHub Avatar" />
 </p>
 
+<p align="center">
+  <img src="https://github-stats-extended.vercel.app/api?username=Bhargav-92&show_icons=true&hide_rank=true&bg_color=1A1B27&title_color=70A5FD&text_color=38BDAE&icon_color=BF91F3&hide_border=true" width="450" alt="Bhargav's GitHub Stats" />
+</p>
