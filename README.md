@@ -12,11 +12,10 @@
 <!-- ================= RIGHT SIDE: GITHUB STATS =================
      Floated right so the profile text flows on the left (no table, no border).
      Save the card at assets/github-stats.svg in your profile repo. -->
-
 <img
   align="right"
   width="400"
-  src="./assets/github-stats.svg"
+  src="https://raw.githubusercontent.com/Bhargav-92/Bhargav-92/main/assets/github-stats.svg"
   alt="GitHub Stats"
 />
 
