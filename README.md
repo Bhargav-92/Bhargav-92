@@ -9,43 +9,14 @@
 
 <br>
 
-<!-- ================= GITHUB STATS ================= -->
+<!-- ================= MAIN CONTENT ================= -->
 
-<div align="center">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
 
-<h3>GitHub Stats</h3>
+<!-- ================= LEFT SIDE ================= -->
 
-<p align="center">
-  <img src="https://api.iconify.design/lucide/folder-git-2.svg?color=%2370A5FD" width="16" height="16" alt="Repositories" />
-  &nbsp; Repositories: <b>15</b>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-
-  <img src="https://api.iconify.design/lucide/star.svg?color=%2370A5FD" width="16" height="16" alt="Stars" />
-  &nbsp; Stars Earned: <b>8</b>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-
-  <img src="https://api.iconify.design/lucide/git-fork.svg?color=%2370A5FD" width="16" height="16" alt="Forks" />
-  &nbsp; Forks: <b>0</b>
-</p>
-
-<p align="center">
-  <img src="https://api.iconify.design/lucide/git-pull-request.svg?color=%2370A5FD" width="16" height="16" alt="Pull Requests" />
-  &nbsp; Pull Requests: <b>0</b>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-
-  <img src="https://api.iconify.design/lucide/circle-dot.svg?color=%2370A5FD" width="16" height="16" alt="Issues" />
-  &nbsp; Issues Opened: <b>2</b>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-
-  <img src="https://api.iconify.design/lucide/users.svg?color=%2370A5FD" width="16" height="16" alt="Followers" />
-  &nbsp; Followers: <b>15</b>
-</p>
-
-</div>
-
-<br>
-
-<!-- ================= SOCIAL ================= -->
+<td width="50%" valign="top">
 
 <h3>Connect with me</h3>
 
@@ -91,15 +62,11 @@
 </a>
 </p>
 
-<!-- ================= PROFILE DETAILS ================= -->
-
 <ul>
-  <li><strong>I'm Bhargav Thakar</strong></li>
-  <li>Frontend Developer · India</li>
-  <li>I’m crafting standout web experiences.</li>
+<li><strong>I'm Bhargav Thakar</strong></li>
+<li>Frontend Developer · India</li>
+<li>I’m crafting standout web experiences.</li>
 </ul>
-
-<!-- ================= TECH ================= -->
 
 <h3>Tech I Work With</h3>
 
@@ -112,6 +79,53 @@ Tailwind CSS · shadcn/ui
 TanStack Query · TanStack Router · Zustand ·<br>
 React Hook Form · Zod
 </p>
+
+</td>
+
+<!-- ================= RIGHT SIDE ================= -->
+
+<td width="50%" valign="top" align="center">
+
+<h3>GitHub Stats</h3>
+
+<br>
+
+<p align="center">
+<img src="https://api.iconify.design/lucide/folder-git-2.svg?color=%2370A5FD" width="16" height="16" alt="Repositories" />
+&nbsp; Repositories: <b>15</b>
+
+&nbsp;&nbsp;&nbsp;
+
+<img src="https://api.iconify.design/lucide/star.svg?color=%2370A5FD" width="16" height="16" alt="Stars" />
+&nbsp; Stars: <b>8</b>
+
+&nbsp;&nbsp;&nbsp;
+
+<img src="https://api.iconify.design/lucide/git-fork.svg?color=%2370A5FD" width="16" height="16" alt="Forks" />
+&nbsp; Forks: <b>0</b>
+</p>
+
+<br>
+
+<p align="center">
+<img src="https://api.iconify.design/lucide/git-pull-request.svg?color=%2370A5FD" width="16" height="16" alt="Pull Requests" />
+&nbsp; PRs: <b>0</b>
+
+&nbsp;&nbsp;&nbsp;
+
+<img src="https://api.iconify.design/lucide/circle-dot.svg?color=%2370A5FD" width="16" height="16" alt="Issues" />
+&nbsp; Issues: <b>2</b>
+
+&nbsp;&nbsp;&nbsp;
+
+<img src="https://api.iconify.design/lucide/users.svg?color=%2370A5FD" width="16" height="16" alt="Followers" />
+&nbsp; Followers: <b>15</b>
+</p>
+
+</td>
+
+</tr>
+</table>
 
 <br>
 
