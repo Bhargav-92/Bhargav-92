@@ -46,18 +46,6 @@
 <li>I’m crafting standout web apps.</li>
 </ul>
 
-<h3>Tech I Work With</h3>
-
-<p>
-React · Next.js · TypeScript · JavaScript ·<br>
-Tailwind CSS · shadcn/ui
-</p>
-
-<p>
-TanStack Query · TanStack Router · Zustand ·<br>
-React Hook Form · Zod
-</p>
-
 <!-- clears the float so the footer sits below both sides -->
 <br clear="right">
 
