@@ -72,8 +72,8 @@ React · Next.js · TypeScript · Building things for the web
 <br>
 
 <p>
-Building modern, scalable and user-friendly web applications
-with React, Next.js and TypeScript.
+Building modern, scalable and user-friendly web applications                   
+
 </p>
 
 </td>
@@ -100,69 +100,29 @@ with React, Next.js and TypeScript.
 <br>
 
 <p align="center">
-
-<img
-  src="https://api.iconify.design/lucide/folder-git-2.svg?color=%2370A5FD"
-  width="16"
-  height="16"
-  alt="Repositories"
-/>
+<img src="https://api.iconify.design/lucide/folder-git-2.svg?color=%2370A5FD" width="16" height="16" alt="Repositories" />
 &nbsp; Repositories: <b>15</b>
+&nbsp;&nbsp;&nbsp;&nbsp;
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://api.iconify.design/lucide/star.svg?color=%2370A5FD" width="16" height="16" alt="Stars" />
+&nbsp; Stars Earned: <b>8</b>
+&nbsp;&nbsp;&nbsp;&nbsp;
 
-<img
-  src="https://api.iconify.design/lucide/star.svg?color=%2370A5FD"
-  width="16"
-  height="16"
-  alt="Stars"
-/>
-&nbsp; Stars: <b>8</b>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-<img
-  src="https://api.iconify.design/lucide/git-fork.svg?color=%2370A5FD"
-  width="16"
-  height="16"
-  alt="Forks"
-/>
+<img src="https://api.iconify.design/lucide/git-fork.svg?color=%2370A5FD" width="16" height="16" alt="Forks" />
 &nbsp; Forks: <b>0</b>
-
 </p>
 
-<br>
-
 <p align="center">
-
-<img
-  src="https://api.iconify.design/lucide/git-pull-request.svg?color=%2370A5FD"
-  width="16"
-  height="16"
-  alt="Pull Requests"
-/>
+<img src="https://api.iconify.design/lucide/git-pull-request.svg?color=%2370A5FD" width="16" height="16" alt="Pull Requests" />
 &nbsp; Pull Requests: <b>0</b>
+&nbsp;&nbsp;&nbsp;&nbsp;
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://api.iconify.design/lucide/circle-dot.svg?color=%2370A5FD" width="16" height="16" alt="Issues" />
+&nbsp; Issues Opened: <b>2</b>
+&nbsp;&nbsp;&nbsp;&nbsp;
 
-<img
-  src="https://api.iconify.design/lucide/circle-dot.svg?color=%2370A5FD"
-  width="16"
-  height="16"
-  alt="Issues"
-/>
-&nbsp; Issues: <b>2</b>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-<img
-  src="https://api.iconify.design/lucide/users.svg?color=%2370A5FD"
-  width="16"
-  height="16"
-  alt="Followers"
-/>
+<img src="https://api.iconify.design/lucide/users.svg?color=%2370A5FD" width="16" height="16" alt="Followers" />
 &nbsp; Followers: <b>15</b>
-
 </p>
 
 <br>
