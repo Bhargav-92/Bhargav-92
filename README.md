@@ -4,10 +4,11 @@
 
 <h1>Hi 👋, I'm Bhargav Thakar</h1>
 
-<p><strong>Frontend Web Developer · India</strong></p>
+<p><strong>Frontend Developer · India</strong></p>
 
 <p>
-React · Next.js · TypeScript · Building things for the web
+Building modern, responsive and user-friendly web applications with
+React, Next.js and TypeScript.
 </p>
 
 <img
@@ -19,15 +20,37 @@ React · Next.js · TypeScript · Building things for the web
 
 <br>
 
-<!-- ================= SOCIAL + KOI ================= -->
+<!-- ================= ABOUT ================= -->
 
-<table width="100%">
-<tr>
+<h3>About</h3>
 
-<td width="55%" valign="middle">
+<p>
+Frontend developer focused on building clean interfaces,
+scalable web applications and smooth user experiences.
+</p>
+
+<p>
+I work mainly with React, Next.js, TypeScript, Tailwind CSS
+and modern frontend tooling.
+</p>
+
+<!-- ================= TECH ================= -->
+
+<h3>Tech I Work With</h3>
+
+<p>
+React · Next.js · TypeScript · JavaScript · Tailwind CSS · shadcn/ui
+</p>
+
+<p>
+TanStack Query · TanStack Router · Zustand · React Hook Form · Zod
+</p>
+
+<!-- ================= SOCIAL ================= -->
 
 <h3>Connect with me</h3>
 
+<p>
 <a href="https://codepen.io/bunny-thakar" target="blank">
 <img
   align="center"
@@ -67,29 +90,7 @@ React · Next.js · TypeScript · Building things for the web
   width="40"
 />
 </a>
-
-<br>
-<br>
-
-<p>
-Building modern, scalable and user-friendly web applications                   
-
 </p>
-
-</td>
-
-<td width="45%" align="right" valign="middle">
-
-<img
-  src="koi/koi.gif"
-  width="256"
-  alt="My GitHub Koi"
-/>
-
-</td>
-
-</tr>
-</table>
 
 <br>
 
@@ -97,32 +98,68 @@ Building modern, scalable and user-friendly web applications
 
 <h3 align="center">GitHub Stats</h3>
 
-<br>
-
 <p align="center">
-<img src="https://api.iconify.design/lucide/folder-git-2.svg?color=%2370A5FD" width="16" height="16" alt="Repositories" />
+
+<img
+  src="https://api.iconify.design/lucide/folder-git-2.svg?color=%2370A5FD"
+  width="16"
+  height="16"
+  alt="Repositories"
+/>
 &nbsp; Repositories: <b>15</b>
+
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-<img src="https://api.iconify.design/lucide/star.svg?color=%2370A5FD" width="16" height="16" alt="Stars" />
+<img
+  src="https://api.iconify.design/lucide/star.svg?color=%2370A5FD"
+  width="16"
+  height="16"
+  alt="Stars"
+/>
 &nbsp; Stars Earned: <b>8</b>
+
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-<img src="https://api.iconify.design/lucide/git-fork.svg?color=%2370A5FD" width="16" height="16" alt="Forks" />
+<img
+  src="https://api.iconify.design/lucide/git-fork.svg?color=%2370A5FD"
+  width="16"
+  height="16"
+  alt="Forks"
+/>
 &nbsp; Forks: <b>0</b>
+
 </p>
 
 <p align="center">
-<img src="https://api.iconify.design/lucide/git-pull-request.svg?color=%2370A5FD" width="16" height="16" alt="Pull Requests" />
+
+<img
+  src="https://api.iconify.design/lucide/git-pull-request.svg?color=%2370A5FD"
+  width="16"
+  height="16"
+  alt="Pull Requests"
+/>
 &nbsp; Pull Requests: <b>0</b>
+
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-<img src="https://api.iconify.design/lucide/circle-dot.svg?color=%2370A5FD" width="16" height="16" alt="Issues" />
+<img
+  src="https://api.iconify.design/lucide/circle-dot.svg?color=%2370A5FD"
+  width="16"
+  height="16"
+  alt="Issues"
+/>
 &nbsp; Issues Opened: <b>2</b>
+
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-<img src="https://api.iconify.design/lucide/users.svg?color=%2370A5FD" width="16" height="16" alt="Followers" />
+<img
+  src="https://api.iconify.design/lucide/users.svg?color=%2370A5FD"
+  width="16"
+  height="16"
+  alt="Followers"
+/>
 &nbsp; Followers: <b>15</b>
+
 </p>
 
 <br>
@@ -130,5 +167,5 @@ Building modern, scalable and user-friendly web applications
 <!-- ================= FOOTER ================= -->
 
 <div align="center">
-<sub>Built with passion by Bhargav Thakar</sub>
+<sub>Frontend Developer · Building for the web</sub>
 </div>
