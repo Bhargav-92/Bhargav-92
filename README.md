@@ -2,14 +2,8 @@
 
 <div align="center">
 
-<h1>Hi 👋, I'm Bhargav Thakar</h1>
-
 <p><strong>Frontend Developer · India</strong></p>
 
-<p>
-Building modern, responsive and user-friendly web applications with
-React, Next.js and TypeScript.
-</p>
 
 <img
   src="https://komarev.com/ghpvc/?username=Bhargav-92&label=Profile%20Views&color=70A5FD&style=flat"
@@ -23,15 +17,11 @@ React, Next.js and TypeScript.
 <!-- ================= ABOUT ================= -->
 
 <h3>About</h3>
-
 <p>
-Frontend developer focused on building clean interfaces,
-scalable web applications and smooth user experiences.
+   I'm Bhargav Thakar
 </p>
-
 <p>
-I work mainly with React, Next.js, TypeScript, Tailwind CSS
-and modern frontend tooling.
+I’m crafting standout web experiences.
 </p>
 
 <!-- ================= TECH ================= -->
