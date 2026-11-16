@@ -11,7 +11,7 @@
 
 <!-- ================= MAIN CONTENT ================= -->
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<table width="100%" border="0">
 <tr>
 
 <!-- ================= LEFT SIDE ================= -->
@@ -88,36 +88,24 @@ React Hook Form · Zod
 
 <h3>GitHub Stats</h3>
 
-<br>
-
-<p align="center">
+<p>
 <img src="https://api.iconify.design/lucide/folder-git-2.svg?color=%2370A5FD" width="16" height="16" alt="Repositories" />
 &nbsp; Repositories: <b>15</b>
-
 &nbsp;&nbsp;&nbsp;
-
 <img src="https://api.iconify.design/lucide/star.svg?color=%2370A5FD" width="16" height="16" alt="Stars" />
 &nbsp; Stars: <b>8</b>
-
 &nbsp;&nbsp;&nbsp;
-
 <img src="https://api.iconify.design/lucide/git-fork.svg?color=%2370A5FD" width="16" height="16" alt="Forks" />
 &nbsp; Forks: <b>0</b>
 </p>
 
-<br>
-
-<p align="center">
+<p>
 <img src="https://api.iconify.design/lucide/git-pull-request.svg?color=%2370A5FD" width="16" height="16" alt="Pull Requests" />
 &nbsp; PRs: <b>0</b>
-
 &nbsp;&nbsp;&nbsp;
-
 <img src="https://api.iconify.design/lucide/circle-dot.svg?color=%2370A5FD" width="16" height="16" alt="Issues" />
 &nbsp; Issues: <b>2</b>
-
 &nbsp;&nbsp;&nbsp;
-
 <img src="https://api.iconify.design/lucide/users.svg?color=%2370A5FD" width="16" height="16" alt="Followers" />
 &nbsp; Followers: <b>15</b>
 </p>
