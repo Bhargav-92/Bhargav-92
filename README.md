@@ -50,7 +50,6 @@
 <img src="https://api.iconify.design/lucide/git-fork.svg?color=%2370A5FD" width="16" height="16" alt="Forks" />
 &nbsp; Forks: <b>0</b>
 
-&nbsp;&nbsp;&nbsp;&nbsp;
 
 <img src="https://api.iconify.design/lucide/git-pull-request.svg?color=%2370A5FD" width="16" height="16" alt="Pull Requests" />
 &nbsp; Pull Requests: <b>0</b>
