@@ -9,26 +9,6 @@
 </div>
 
 
-<ul>
-  <li><strong>I'm Bhargav Thakar</strong></li>
-  <li>Frontend Developer · India</li>
-  <li>I’m crafting standout web experiences.</li>
-</ul>
-
-<!-- ================= TECH ================= -->
-
-<h3>Tech I Work With</h3>
-
-<p>
-React · Next.js · TypeScript · JavaScript · Tailwind CSS · shadcn/ui
-</p>
-
-<p>
-TanStack Query · TanStack Router · Zustand · React Hook Form · Zod
-</p>
-
-<!-- ================= SOCIAL ================= -->
-
 <h3>Connect with me</h3>
 
 <p>
@@ -75,15 +55,34 @@ TanStack Query · TanStack Router · Zustand · React Hook Form · Zod
 
 </p>
 
+
+<ul>
+  <li><strong>I'm Bhargav Thakar</strong></li>
+  <li>Frontend Developer · India</li>
+  <li>I’m crafting standout web experiences.</li>
+</ul>
+
+<!-- ================= TECH ================= -->
+
+<h3>Tech I Work With</h3>
+
+<p>
+React · Next.js · TypeScript · JavaScript · Tailwind CSS · shadcn/ui
+</p>
+
+<p>
+TanStack Query · TanStack Router · Zustand · React Hook Form · Zod
+</p>
+
 <br>
 
 <!-- ================= GITHUB STATS ================= -->
 
-<div align="center">
+<div align="right">
 
 <h3>GitHub Stats</h3>
 
-<p>
+<p align="right">
 
 <img
   src="https://api.iconify.design/lucide/folder-git-2.svg?color=%2370A5FD"
@@ -93,7 +92,7 @@ TanStack Query · TanStack Router · Zustand · React Hook Form · Zod
 />
 &nbsp; Repositories: <b>15</b>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <img
   src="https://api.iconify.design/lucide/star.svg?color=%2370A5FD"
@@ -103,7 +102,7 @@ TanStack Query · TanStack Router · Zustand · React Hook Form · Zod
 />
 &nbsp; Stars Earned: <b>8</b>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <img
   src="https://api.iconify.design/lucide/git-fork.svg?color=%2370A5FD"
@@ -115,7 +114,7 @@ TanStack Query · TanStack Router · Zustand · React Hook Form · Zod
 
 </p>
 
-<p>
+<p align="right">
 
 <img
   src="https://api.iconify.design/lucide/git-pull-request.svg?color=%2370A5FD"
@@ -125,7 +124,7 @@ TanStack Query · TanStack Router · Zustand · React Hook Form · Zod
 />
 &nbsp; Pull Requests: <b>0</b>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <img
   src="https://api.iconify.design/lucide/circle-dot.svg?color=%2370A5FD"
@@ -135,7 +134,7 @@ TanStack Query · TanStack Router · Zustand · React Hook Form · Zod
 />
 &nbsp; Issues Opened: <b>2</b>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <img
   src="https://api.iconify.design/lucide/users.svg?color=%2370A5FD"
