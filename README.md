@@ -2,29 +2,17 @@
 
 <div align="center">
 
-<p><strong>I'm Bhargav Thakar</strong></p>
-<p>Frontend Developer · India</p>
-
 <img
   src="https://komarev.com/ghpvc/?username=Bhargav-92&label=Profile%20Views&color=70A5FD&style=flat"
   alt="Profile Views"
 />
-
 </div>
 
-<br>
-
-<!-- ================= ABOUT ================= -->
-
-<p>
-I’m crafting standout web experiences.
-</p>
 
 <ul>
-  <li>Building modern and responsive web applications</li>
-  <li>Focused on clean UI and smooth user experiences</li>
-  <li>Working mainly with React, Next.js and TypeScript</li>
-  <li>Exploring better frontend architecture and modern web tooling</li>
+  <li><strong>I'm Bhargav Thakar</strong></li>
+  <li>Frontend Developer · India</li>
+  <li>I’m crafting standout web experiences.</li>
 </ul>
 
 <!-- ================= TECH ================= -->
