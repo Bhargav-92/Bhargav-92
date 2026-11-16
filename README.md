@@ -16,13 +16,34 @@
      Prefer the custom card? Commit assets/github-stats.svg to this repo and use:
      src="https://raw.githubusercontent.com/Bhargav-92/Bhargav-92/main/assets/github-stats.svg" -->
 
-<img
-  align="right"
-  width="400"
-  src="https://github-readme-stats.vercel.app/api?username=Bhargav-92&show_icons=true&hide_border=true&bg_color=0d1117&title_color=70A5FD&icon_color=70A5FD&text_color=c9d1d9&text_bold=false&border_radius=12"
-  alt="GitHub Stats"
-/>
+<div>
+  <p align="center">
+<img src="https://api.iconify.design/lucide/folder-git-2.svg?color=%2370A5FD" width="16" height="16" alt="Repositories" />
+&nbsp; Repositories: <b>15</b>
+&nbsp;&nbsp;&nbsp;&nbsp;
 
+<img src="https://api.iconify.design/lucide/star.svg?color=%2370A5FD" width="16" height="16" alt="Stars" />
+&nbsp; Stars Earned: <b>8</b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img src="https://api.iconify.design/lucide/git-fork.svg?color=%2370A5FD" width="16" height="16" alt="Forks" />
+&nbsp; Forks: <b>0</b>
+</p>
+
+<p align="center">
+<img src="https://api.iconify.design/lucide/git-pull-request.svg?color=%2370A5FD" width="16" height="16" alt="Pull Requests" />
+&nbsp; Pull Requests: <b>0</b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img src="https://api.iconify.design/lucide/circle-dot.svg?color=%2370A5FD" width="16" height="16" alt="Issues" />
+&nbsp; Issues Opened: <b>2</b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img src="https://api.iconify.design/lucide/users.svg?color=%2370A5FD" width="16" height="16" alt="Followers" />
+&nbsp; Followers: <b>15</b>
+</p>
+
+</div>
 <!-- ================= LEFT SIDE: PROFILE ================= -->
 
 <h3>Connect with me</h3>
