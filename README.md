@@ -19,7 +19,6 @@
 <a href="https://twitter.com/tkrbhargav" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/bhargav-thakar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
 
-<p>Building modern, scalable and user-friendly web applications with React, Next.js and TypeScript.</p>
 
 </td>
 <td width="50%" align="right" valign="middle">
