@@ -9,7 +9,16 @@
 
 <br>
 
-<!-- ================= SOCIAL ================= -->
+<!-- ================= RIGHT SIDE STATS ================= -->
+
+<img
+  align="right"
+  src="./github-stats.svg"
+  width="440"
+  alt="Bhargav GitHub Stats"
+/>
+
+<!-- ================= LEFT SIDE ================= -->
 
 <h3>Connect with me</h3>
 
@@ -26,39 +35,23 @@
 <li>I’m crafting standout web experiences.</li>
 </ul>
 
-<!-- ================= TECH ================= -->
-
 <h3>Tech I Work With</h3>
 
 <p>
-React · Next.js · TypeScript · JavaScript · Tailwind CSS · shadcn/ui
+React · Next.js · TypeScript · JavaScript ·<br>
+Tailwind CSS · shadcn/ui
 </p>
 
 <p>
-TanStack Query · TanStack Router · Zustand · React Hook Form · Zod
+TanStack Query · TanStack Router · Zustand ·<br>
+React Hook Form · Zod
 </p>
 
-<br>
-
-<!-- ================= GITHUB STATS ================= -->
-
-<h3 align="center">GitHub Stats</h3>
-
-<p align="center">
-<img src="https://api.iconify.design/lucide/folder-git-2.svg?color=%2370A5FD" width="16" height="16" alt="Repositories" />&nbsp; Repositories: <b>15</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://api.iconify.design/lucide/star.svg?color=%2370A5FD" width="16" height="16" alt="Stars" />&nbsp; Stars: <b>8</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://api.iconify.design/lucide/git-fork.svg?color=%2370A5FD" width="16" height="16" alt="Forks" />&nbsp; Forks: <b>0</b>
-</p>
-
-<p align="center">
-<img src="https://api.iconify.design/lucide/git-pull-request.svg?color=%2370A5FD" width="16" height="16" alt="Pull Requests" />&nbsp; Pull Requests: <b>0</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://api.iconify.design/lucide/circle-dot.svg?color=%2370A5FD" width="16" height="16" alt="Issues" />&nbsp; Issues: <b>2</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://api.iconify.design/lucide/users.svg?color=%2370A5FD" width="16" height="16" alt="Followers" />&nbsp; Followers: <b>15</b>
-</p>
-
-<br>
+<br clear="both">
 
 <!-- ================= FOOTER ================= -->
+
+<br>
 
 <div align="center">
 <sub>Frontend Developer · Building for the web</sub>
