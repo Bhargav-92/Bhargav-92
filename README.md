@@ -7,115 +7,66 @@
 />
 </div>
 
-<br>
+<!-- ================= INTRO ================= -->
 
-<!-- ================= MAIN CONTENT ================= -->
+<h1 align="center">Hi, I'm Bhargav Thakar 👋</h1>
 
-<table width="100%" border="0">
-<tr>
+<p align="center">
+  Frontend Developer · India<br>
+  <sub>I'm crafting standout web experiences.</sub>
+</p>
 
-<!-- ================= LEFT SIDE ================= -->
+<!-- ================= SOCIALS ================= -->
 
-<td width="50%" valign="top">
-
-<h3>Connect with me</h3>
-
-<p>
+<p align="center">
 <a href="https://codepen.io/bunny-thakar" target="blank">
-<img
-  align="center"
-  src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg"
-  alt="CodePen"
-  height="30"
-  width="40"
-/>
+<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="CodePen" height="30" width="40" />
 </a>
-
+&nbsp;&nbsp;
 <a href="https://dev.to/tkrbhargav" target="blank">
-<img
-  align="center"
-  src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg"
-  alt="DEV"
-  height="30"
-  width="40"
-/>
+<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="DEV" height="30" width="40" />
 </a>
-
+&nbsp;&nbsp;
 <a href="https://twitter.com/tkrbhargav" target="blank">
-<img
-  align="center"
-  src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg"
-  alt="Twitter"
-  height="30"
-  width="40"
-/>
+<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" height="30" width="40" />
 </a>
-
+&nbsp;&nbsp;
 <a href="https://linkedin.com/in/bhargav-thakar" target="blank">
-<img
-  align="center"
-  src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
-  alt="LinkedIn"
-  height="30"
-  width="40"
-/>
+<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
 </a>
 </p>
 
-<ul>
-<li><strong>I'm Bhargav Thakar</strong></li>
-<li>Frontend Developer · India</li>
-<li>I’m crafting standout web experiences.</li>
-</ul>
+<!-- ================= TECH ================= -->
 
-<h3>Tech I Work With</h3>
+<h3 align="center">Tech I Work With</h3>
 
-<p>
-React · Next.js · TypeScript · JavaScript ·<br>
-Tailwind CSS · shadcn/ui
-</p>
-
-<p>
-TanStack Query · TanStack Router · Zustand ·<br>
-React Hook Form · Zod
-</p>
-
-</td>
-
-<!-- ================= RIGHT SIDE ================= -->
-
-<td width="50%" valign="top" align="center">
-
-<h3>GitHub Stats</h3>
-
-<p>
-<img src="https://api.iconify.design/lucide/folder-git-2.svg?color=%2370A5FD" width="16" height="16" alt="Repositories" />
-&nbsp; Repositories: <b>15</b>
-&nbsp;&nbsp;&nbsp;
-<img src="https://api.iconify.design/lucide/star.svg?color=%2370A5FD" width="16" height="16" alt="Stars" />
-&nbsp; Stars: <b>8</b>
-&nbsp;&nbsp;&nbsp;
-<img src="https://api.iconify.design/lucide/git-fork.svg?color=%2370A5FD" width="16" height="16" alt="Forks" />
-&nbsp; Forks: <b>0</b>
-</p>
-
-<p>
-<img src="https://api.iconify.design/lucide/git-pull-request.svg?color=%2370A5FD" width="16" height="16" alt="Pull Requests" />
-&nbsp; PRs: <b>0</b>
-&nbsp;&nbsp;&nbsp;
-<img src="https://api.iconify.design/lucide/circle-dot.svg?color=%2370A5FD" width="16" height="16" alt="Issues" />
-&nbsp; Issues: <b>2</b>
-&nbsp;&nbsp;&nbsp;
-<img src="https://api.iconify.design/lucide/users.svg?color=%2370A5FD" width="16" height="16" alt="Followers" />
-&nbsp; Followers: <b>15</b>
-</p>
-
-</td>
-
-</tr>
-</table>
-
+<p align="center">
+<img src="https://img.shields.io/badge/React-1f2937?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/Next.js-1f2937?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+<img src="https://img.shields.io/badge/TypeScript-1f2937?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+<img src="https://img.shields.io/badge/JavaScript-1f2937?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-1f2937?style=flat-square&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind CSS" />
+<img src="https://img.shields.io/badge/shadcn/ui-1f2937?style=flat-square&logo=shadcnui&logoColor=white" alt="shadcn/ui" />
 <br>
+<img src="https://img.shields.io/badge/TanStack_Query-1f2937?style=flat-square&logo=reactquery&logoColor=FF4154" alt="TanStack Query" />
+<img src="https://img.shields.io/badge/TanStack_Router-1f2937?style=flat-square" alt="TanStack Router" />
+<img src="https://img.shields.io/badge/Zustand-1f2937?style=flat-square" alt="Zustand" />
+<img src="https://img.shields.io/badge/React_Hook_Form-1f2937?style=flat-square&logo=reacthookform&logoColor=EC5990" alt="React Hook Form" />
+<img src="https://img.shields.io/badge/Zod-1f2937?style=flat-square&logo=zod&logoColor=3E67B1" alt="Zod" />
+</p>
+
+<!-- ================= GITHUB STATS ================= -->
+
+<h3 align="center">GitHub Stats</h3>
+
+<p align="center">
+<img src="https://img.shields.io/badge/Repositories-15-70A5FD?style=flat-square&labelColor=1f2937&logo=github&logoColor=white" alt="Repositories" />
+<img src="https://img.shields.io/badge/Stars-8-70A5FD?style=flat-square&labelColor=1f2937" alt="Stars" />
+<img src="https://img.shields.io/badge/Forks-0-70A5FD?style=flat-square&labelColor=1f2937" alt="Forks" />
+<img src="https://img.shields.io/badge/PRs-0-70A5FD?style=flat-square&labelColor=1f2937" alt="Pull Requests" />
+<img src="https://img.shields.io/badge/Issues-2-70A5FD?style=flat-square&labelColor=1f2937" alt="Issues" />
+<img src="https://img.shields.io/badge/Followers-15-70A5FD?style=flat-square&labelColor=1f2937" alt="Followers" />
+</p>
 
 <!-- ================= FOOTER ================= -->
 
