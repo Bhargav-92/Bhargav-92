@@ -9,20 +9,14 @@
 
 <br>
 
-<!-- ================= RIGHT SIDE STATS ================= -->
 
-<img
-  align="right"
-  src="./github-stats.svg"
-  width="440"
-  alt="Bhargav GitHub Stats"
-/>
 
 <!-- ================= LEFT SIDE ================= -->
 
 <h3>Connect with me</h3>
 
-<p align="center">
+<div>
+  <p align="center">
   <img src="https://api.iconify.design/lucide/folder-git-2.svg?color=%2370A5FD" width="16" height="16" alt="Repositories" />
   &nbsp; Repositories: <b>15</b>
   &nbsp;&nbsp;&nbsp;&nbsp;
@@ -44,6 +38,7 @@
   &nbsp; Followers: <b>15</b>
 </p>
 
+</div>
 
 <ul>
 <li><strong>I'm Bhargav Thakar</strong></li>
