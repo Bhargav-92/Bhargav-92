@@ -31,7 +31,7 @@
 
 <ul>
 <li><strong>I'm Bhargav Thakar</strong></li>
-<li>Frontend Developer · India</li>
+<li>Frontend Web Developer · India</li>
 <li>I’m crafting standout web apps.</li>
 </ul>
 
@@ -64,8 +64,3 @@
 &nbsp; Followers: <b>15</b>
 </p>
 
-<!-- ================= FOOTER ================= -->
-
-<div align="center">
-<sub>Frontend Developer · Building for the web</sub>
-</div>
