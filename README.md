@@ -7,15 +7,9 @@
 />
 </div>
 
+<!-- ================= Right SIDE ================= -->
 <br>
-
-
-
-<!-- ================= LEFT SIDE ================= -->
-
-<h3>Connect with me</h3>
-
-<div>
+<div align="center">
   <p align="center">
   <img src="https://api.iconify.design/lucide/folder-git-2.svg?color=%2370A5FD" width="16" height="16" alt="Repositories" />
   &nbsp; Repositories: <b>15</b>
@@ -37,6 +31,11 @@
   <img src="https://api.iconify.design/lucide/users.svg?color=%2370A5FD" width="16" height="16" alt="Followers" />
   &nbsp; Followers: <b>15</b>
 </p>
+
+
+<!-- ================= LEFT SIDE ================= -->
+
+<h3>Connect with me</h3>
 
 </div>
 
