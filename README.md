@@ -1,4 +1,3 @@
-
 <!-- ================= HEADER ================= -->
 
 <div align="center">
@@ -14,63 +13,122 @@
 
 </div>
 
+<br>
+
 <!-- ================= SOCIAL + KOI ================= -->
 
+<table width="100%">
+  <tr>
+
+    <!-- SOCIAL -->
+    <td width="55%" valign="middle">
+
+      <h3>Connect with me</h3>
+
+      <p>
+        <a href="https://codepen.io/bunny-thakar" target="_blank">
+          <img
+            src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg"
+            alt="CodePen"
+            height="30"
+            width="40"
+          />
+        </a>
+
+        <a href="https://dev.to/tkrbhargav" target="_blank">
+          <img
+            src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg"
+            alt="DEV"
+            height="30"
+            width="40"
+          />
+        </a>
+
+        <a href="https://twitter.com/tkrbhargav" target="_blank">
+          <img
+            src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg"
+            alt="Twitter"
+            height="30"
+            width="40"
+          />
+        </a>
+
+        <a href="https://linkedin.com/in/bhargav-thakar" target="_blank">
+          <img
+            src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
+            alt="LinkedIn"
+            height="30"
+            width="40"
+          />
+        </a>
+      </p>
+
+      <p>
+        Building modern, scalable and user-friendly web applications
+        with <strong>React, Next.js and TypeScript.</strong>
+      </p>
+
+    </td>
+
+    <!-- KOI -->
+    <td width="45%" align="right" valign="middle">
+
+      <img
+        src="koi/koi.gif"
+        width="250"
+        alt="My GitHub Koi"
+      />
+
+    </td>
+
+  </tr>
+</table>
+
 <br>
-
-<div align="center">
-
-  <h3>Connect with me</h3>
-
-  <p>
-    <a href="https://codepen.io/bunny-thakar" target="_blank">
-      <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="CodePen" height="30" width="40" />
-    </a>
-    <a href="https://dev.to/tkrbhargav" target="_blank">
-      <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="DEV" height="30" width="40" />
-    </a>
-    <a href="https://twitter.com/tkrbhargav" target="_blank">
-      <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" height="30" width="40" />
-    </a>
-    <a href="https://linkedin.com/in/bhargav-thakar" target="_blank">
-      <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
-    </a>
-  </p>
-
-  <p>
-    Building modern, scalable and user-friendly web applications<br>
-    with <strong>React, Next.js and TypeScript.</strong>
-  </p>
-
-  <img src="koi/koi.gif" width="230" alt="My GitHub Koi" />
-
-</div>
 
 <!-- ================= GITHUB STATS ================= -->
-
-<br>
 
 <div align="center">
 
   <h3>GitHub Stats</h3>
 
   <p>
-    <img src="https://img.shields.io/badge/Repositories-15-70A5FD?style=flat-square&logo=github&logoColor=white" alt="Repositories" />
-    <img src="https://img.shields.io/badge/Stars-8-70A5FD?style=flat-square&logo=githubsponsors&logoColor=white" alt="Stars Earned" />
-    <img src="https://img.shields.io/badge/Forks-0-70A5FD?style=flat-square&logo=git&logoColor=white" alt="Forks" />
-  </p>
-
-  <p>
-    <img src="https://img.shields.io/badge/Pull_Requests-0-70A5FD?style=flat-square&logo=github&logoColor=white" alt="Pull Requests" />
-    <img src="https://img.shields.io/badge/Issues_Opened-2-70A5FD?style=flat-square&logo=github&logoColor=white" alt="Issues Opened" />
-    <img src="https://img.shields.io/badge/Followers-15-70A5FD?style=flat-square&logo=github&logoColor=white" alt="Followers" />
+    <img
+      src="https://img.shields.io/badge/Repositories-15-70A5FD?style=flat-square&logo=github&logoColor=white"
+      alt="Repositories"
+    />
+    &nbsp;
+    <img
+      src="https://img.shields.io/badge/Stars-8-70A5FD?style=flat-square&logo=githubsponsors&logoColor=white"
+      alt="Stars Earned"
+    />
+    &nbsp;
+    <img
+      src="https://img.shields.io/badge/Forks-0-70A5FD?style=flat-square&logo=git&logoColor=white"
+      alt="Forks"
+    />
+    &nbsp;
+    <img
+      src="https://img.shields.io/badge/Pull_Requests-0-70A5FD?style=flat-square&logo=github&logoColor=white"
+      alt="Pull Requests"
+    />
+    &nbsp;
+    <img
+      src="https://img.shields.io/badge/Issues-2-70A5FD?style=flat-square&logo=github&logoColor=white"
+      alt="Issues Opened"
+    />
+    &nbsp;
+    <img
+      src="https://img.shields.io/badge/Followers-15-70A5FD?style=flat-square&logo=github&logoColor=white"
+      alt="Followers"
+    />
   </p>
 
 </div>
 
-<!-- ================= FOOTER ================= -->
-
 <br>
+
+<!-- ================= FOOTER ================= -->
 
 <div align="center">
   <sub>Built with passion by Bhargav Thakar</sub>
