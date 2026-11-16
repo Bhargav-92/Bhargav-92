@@ -43,7 +43,7 @@
 <ul>
 <li><strong>I'm Bhargav Thakar</strong></li>
 <li>Frontend Developer · India</li>
-<li>I’m crafting standout web experiences.</li>
+<li>I’m crafting standout web apps.</li>
 </ul>
 
 <h3>Tech I Work With</h3>
