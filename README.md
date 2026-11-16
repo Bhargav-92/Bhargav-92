@@ -9,17 +9,6 @@
 
 <br>
 
-<!-- ================= RIGHT SIDE: GITHUB STATS =================
-     GitHub always draws borders on tables, so there is no table here.
-     The stats are an image floated right; the profile text wraps on its left.
-     Commit assets/github-stats.svg to this repo for it to show. -->
-
-<img
-  align="right"
-  width="470"
-  src="https://raw.githubusercontent.com/Bhargav-92/Bhargav-92/main/assets/github-stats.svg"
-  alt="GitHub Stats"
-/>
 
 <!-- ================= LEFT SIDE: PROFILE ================= -->
 
