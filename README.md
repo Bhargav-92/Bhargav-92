@@ -1,63 +1,23 @@
-<!-- ================= PROFILE VIEWS ================= -->
+<img src="./cards/hero.svg" width="100%" alt="Bhargav Thakar, frontend web developer based in India">
 
-<div align="start">
-<img
-  src="https://komarev.com/ghpvc/?username=Bhargav-92&label=Profile%20Views&color=70A5FD&style=flat"
-  alt="Profile Views"
-/>
-</div>
+<a href="https://github.com/Bhargav-92?tab=overview"><img src="./cards/calendar.svg" width="100%" alt="GitHub contribution calendar"></a>
 
-
-<!-- ================= LEFT SIDE: PROFILE ================= -->
-
-<h3>Connect with me</h3>
+<img src="./cards/monthly.svg" width="100%" alt="Monthly contributions, active days, longest streak and busiest day">
 
 <p>
-<a href="https://codepen.io/bunny-thakar" target="blank">
-<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="CodePen" height="30" width="40" />
-</a>
-<a href="https://dev.to/tkrbhargav" target="blank">
-<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="DEV" height="30" width="40" />
-</a>
-<a href="https://twitter.com/tkrbhargav" target="blank">
-<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" height="30" width="40" />
-</a>
-<a href="https://linkedin.com/in/bhargav-thakar" target="blank">
-<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
-</a>
+<a href="https://github.com/Bhargav-92?tab=repositories"><img src="./cards/build.svg" width="32.5%" alt="Build — browse my repositories"></a>
+<a href="https://dev.to/tkrbhargav"><img src="./cards/write.svg" width="32.5%" alt="Write — find me on DEV"></a>
+<a href="https://linkedin.com/in/bhargav-thakar"><img src="./cards/connect.svg" width="32.5%" alt="Connect — find me on LinkedIn"></a>
 </p>
 
-<ul>
-<li><strong>I'm Bhargav Thakar</strong></li>
-<li>Frontend Web Developer · India</li>
-<li>I’m crafting standout web apps.</li>
-</ul>
+## Featured projects
 
-<!-- clears the float so the footer sits below both sides -->
-<br clear="right">
+<a href="https://github.com/Bhargav-92/Pharma-Buddy"><img src="./cards/Pharma-Buddy.svg" width="100%" alt="Pharma-Buddy, a pharmacy website"></a>
 
-<p align="center">
-<img src="https://api.iconify.design/lucide/folder-git-2.svg?color=%2370A5FD" width="16" height="16" alt="Repositories" />
-  Repositories: <b>15</b>
-    
+<a href="https://github.com/Bhargav-92/Amplify"><img src="./cards/Amplify.svg" width="100%" alt="Amplify, a music player for the web"></a>
 
-<img src="https://api.iconify.design/lucide/star.svg?color=%2370A5FD" width="16" height="16" alt="Stars" />
-  Stars Earned: <b>8</b>
-    
+<a href="https://github.com/Bhargav-92/Podcast-App"><img src="./cards/Podcast-App.svg" width="100%" alt="Podcast-App, a podcast player for iPhone and iPad"></a>
 
-<img src="https://api.iconify.design/lucide/git-fork.svg?color=%2370A5FD" width="16" height="16" alt="Forks" />
-  Forks: <b>0</b>
+[CodePen](https://codepen.io/bunny-thakar) · [DEV](https://dev.to/tkrbhargav) · [X](https://twitter.com/tkrbhargav) · [LinkedIn](https://linkedin.com/in/bhargav-thakar)
 
-
-<img src="https://api.iconify.design/lucide/git-pull-request.svg?color=%2370A5FD" width="16" height="16" alt="Pull Requests" />
-  Pull Requests: <b>0</b>
-    
-
-<img src="https://api.iconify.design/lucide/circle-dot.svg?color=%2370A5FD" width="16" height="16" alt="Issues" />
-  Issues Opened: <b>2</b>
-    
-
-<img src="https://api.iconify.design/lucide/users.svg?color=%2370A5FD" width="16" height="16" alt="Followers" />
-  Followers: <b>15</b>
-</p>
-
+![Profile views](https://komarev.com/ghpvc/?username=Bhargav-92&label=Profile%20Views&color=70A5FD&style=flat)
