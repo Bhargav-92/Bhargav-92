@@ -1,4 +1,4 @@
-<img src="./cards/hero.svg" width="100%" alt="Bhargav Thakar, frontend web developer based in India">
+<img src="./cards/hero.svg" width="100%" alt="Bhargav Thakar, frontend web developer from India">
 
 <a href="https://github.com/Bhargav-92?tab=overview"><img src="./cards/calendar.svg" width="100%" alt="GitHub contribution calendar"></a>
 
