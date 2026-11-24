@@ -116,7 +116,7 @@ def hero():
             if row in (0, 6) or col in (0, 6) or col == row or col + row == 6
         )
         body += motion(pixels, 250 + row * 65, "pop")
-    card("hero.svg", "Bhargav Thakar. I build web apps.", 800, 222, body)
+    card("profile-intro.svg", "Bhargav Thakar. I build web apps.", 800, 222, body)
 
 
 def activity(data):
