@@ -1,5 +1,6 @@
 """Generate animated profile SVGs from GitHub's public contribution calendar."""
 import argparse
+from base64 import b64encode
 from collections import defaultdict
 from datetime import date
 from html import escape
@@ -17,7 +18,6 @@ BORDER = "#30363d"
 BLUE = "#82abff"
 INK = "#e6edf3"
 MUTED = "#a8b7ca"
-PIXEL_COLORS = ["#24364f", "#35537a", "#496ea5", "#648ddb", BLUE]
 
 
 class Calendar(HTMLParser):
@@ -109,14 +109,24 @@ def card(filename, title, width, height, body):
 def hero():
     body = motion(label(31, 109, "Bhargav Thakar", 65, INK, "Georgia"), 70)
     body += motion(label(35, 156, "I build web apps.", 21, BLUE), 220)
-    for row in range(7):
-        pixels = "".join(
-            rect(637 + col * 16, 55 + row * 16, 12, 12, PIXEL_COLORS[(col + row) % 5], 2)
-            for col in range(7)
-            if row in (0, 6) or col in (0, 6) or col == row or col + row == 6
-        )
-        body += motion(pixels, 250 + row * 65, "pop")
-    card("profile-intro.svg", "Bhargav Thakar. I build web apps.", 800, 222, body)
+    portrait = b64encode((ROOT / "data" / "pixel-portrait.png").read_bytes()).decode("ascii")
+    artwork = (
+        f'<image x="590" y="22" width="178" height="178" '
+        f'href="data:image/png;base64,{portrait}"/>'
+    )
+    if os.getenv("STATIC") != "1":
+        body += """
+<style>
+.portrait { animation: portrait-reveal 600ms steps(12, end) both }
+@keyframes portrait-reveal {
+  from { clip-path: inset(0 0 100% 0) fill-box }
+  to { clip-path: inset(0) fill-box }
+}
+@media (prefers-reduced-motion: reduce) { .portrait { animation:none } }
+</style>"""
+    body += motion(artwork, 250, "portrait")
+    card("profile-portrait.svg", "Bhargav Thakar. I build web apps.", 800, 222, body)
+
 
 
 def activity(data):
