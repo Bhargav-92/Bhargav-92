@@ -17,6 +17,7 @@ BORDER = "#30363d"
 BLUE = "#82abff"
 INK = "#e6edf3"
 MUTED = "#a8b7ca"
+PIXEL_COLORS = ["#24364f", "#35537a", "#496ea5", "#648ddb", BLUE]
 
 
 class Calendar(HTMLParser):
@@ -108,16 +109,14 @@ def card(filename, title, width, height, body):
 def hero():
     body = motion(label(31, 109, "Bhargav Thakar", 65, INK, "Georgia"), 70)
     body += motion(label(35, 156, "I build web apps.", 21, BLUE), 220)
-    shades = ("#080c13", "#142443", "#234579", "#3568b8", "#5188e3", BLUE)
-    rows = (ROOT / "data" / "portrait-dots.txt").read_text(encoding="ascii").splitlines()
-    for row, values in enumerate(rows):
-        dots = "".join(
-            f'<circle cx="{592 + col * 4.4:.1f}" cy="{25 + row * 4.4:.1f}" '
-            f'r="1.8" fill="{shades[int(value)]}"/>'
-            for col, value in enumerate(values)
+    for row in range(7):
+        pixels = "".join(
+            rect(637 + col * 16, 55 + row * 16, 12, 12, PIXEL_COLORS[(col + row) % 5], 2)
+            for col in range(7)
+            if row in (0, 6) or col in (0, 6) or col == row or col + row == 6
         )
-        body += motion(dots, 245 + row * 13, "pop")
-    card("profile-dot-portrait.svg", "Bhargav Thakar. I build web apps.", 800, 222, body)
+        body += motion(pixels, 250 + row * 65, "pop")
+    card("profile-intro.svg", "Bhargav Thakar. I build web apps.", 800, 222, body)
 
 
 def activity(data):

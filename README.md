@@ -1,4 +1,4 @@
-<img src="./cards/profile-dot-portrait.svg" width="100%" alt="Bhargav Thakar. I build web apps.">
+<img src="./cards/profile-intro.svg" width="100%" alt="Bhargav Thakar. I build web apps.">
 
 <img src="./cards/monthly.svg" width="100%" alt="Monthly contributions, active days, longest streak and busiest day">
 
