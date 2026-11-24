@@ -1,4 +1,4 @@
-<img src="./cards/hero.svg" width="100%" alt="Bhargav Thakar, frontend web developer from India">
+<img src="./cards/hero.svg" width="100%" alt="Bhargav Thakar. I build web apps.">
 
 <img src="./cards/monthly.svg" width="100%" alt="Monthly contributions, active days, longest streak and busiest day">
 

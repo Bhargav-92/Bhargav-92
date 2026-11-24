@@ -107,10 +107,8 @@ def card(filename, title, width, height, body):
 
 
 def hero():
-    body = label(34, 43, "PORTFOLIO  /  @BHARGAV-92", 14, BLUE, "monospace")
-    body += motion(label(31, 119, "Bhargav Thakar", 65, INK, "Georgia"), 70)
-    body += motion(label(35, 157, "Frontend web developer based in India", 21, BLUE), 220)
-    body += motion(label(35, 193, "I build web apps.", 17, MUTED), 330)
+    body = motion(label(31, 109, "Bhargav Thakar", 65, INK, "Georgia"), 70)
+    body += motion(label(35, 156, "I build web apps.", 21, BLUE), 220)
     for row in range(7):
         pixels = "".join(
             rect(637 + col * 16, 55 + row * 16, 12, 12, PIXEL_COLORS[(col + row) % 5], 2)
@@ -118,7 +116,7 @@ def hero():
             if row in (0, 6) or col in (0, 6) or col == row or col + row == 6
         )
         body += motion(pixels, 250 + row * 65, "pop")
-    card("hero.svg", "Bhargav Thakar, frontend web developer based in India", 800, 222, body)
+    card("hero.svg", "Bhargav Thakar. I build web apps.", 800, 222, body)
 
 
 def activity(data):
