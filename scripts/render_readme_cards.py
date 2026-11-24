@@ -12,10 +12,10 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 USER = "Bhargav-92"
-BLUE = "#174bbb"
-NAVY = "#15284c"
-MUTED = "#496184"
-LEVELS = ["#e2eafb", "#a4bdf5", "#6f98f0", "#376bd7", BLUE]
+BLUE = "#82abff"
+INK = "#e6edf3"
+MUTED = "#a8b7ca"
+PIXEL_COLORS = ["#24364f", "#35537a", "#496ea5", "#648ddb", BLUE]
 
 
 class Calendar(HTMLParser):
@@ -70,7 +70,7 @@ def rect(x, y, w, h, color, radius=4):
     return f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{radius}" fill="{color}"/>'
 
 
-def label(x, y, value, size=16, color=NAVY, font="sans-serif", anchor="start"):
+def label(x, y, value, size=16, color=INK, font="sans-serif", anchor="start"):
     return (
         f'<text x="{x}" y="{y}" fill="{color}" font-family="{font}" '
         f'font-size="{size}" text-anchor="{anchor}">{escape(str(value))}</text>'
@@ -81,7 +81,7 @@ def motion(body, delay=0, effect="rise"):
     return f'<g class="{effect}" style="animation-delay:{delay}ms">{body}</g>'
 
 
-def card(filename, title, width, height, body, background="#f3f7ff"):
+def card(filename, title, width, height, body, background="#161b22"):
     styles = "" if os.getenv("STATIC") == "1" else """
 <style>
 .rise { animation: rise 680ms cubic-bezier(.2,.8,.2,1) both }
@@ -94,7 +94,7 @@ def card(filename, title, width, height, body, background="#f3f7ff"):
 </style>"""
     frame = (
         f'<rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="17" '
-        f'fill="{background}" stroke="#b7c9ee"/>'
+        f'fill="{background}" stroke="#38465b"/>'
     )
     (ROOT / "cards" / filename).write_text(
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
@@ -106,12 +106,12 @@ def card(filename, title, width, height, body, background="#f3f7ff"):
 
 def hero():
     body = label(34, 43, "PORTFOLIO  /  @BHARGAV-92", 14, BLUE, "monospace")
-    body += motion(label(31, 119, "Bhargav Thakar", 65, NAVY, "Georgia"), 70)
+    body += motion(label(31, 119, "Bhargav Thakar", 65, INK, "Georgia"), 70)
     body += motion(label(35, 157, "Frontend web developer based in India", 21, BLUE), 220)
     body += motion(label(35, 193, "I build web apps.", 17, MUTED), 330)
     for row in range(7):
         pixels = "".join(
-            rect(637 + col * 16, 55 + row * 16, 12, 12, LEVELS[(col + row) % 5], 2)
+            rect(637 + col * 16, 55 + row * 16, 12, 12, PIXEL_COLORS[(col + row) % 5], 2)
             for col in range(7)
             if row in (0, 6) or col in (0, 6) or col == row or col + row == 6
         )
@@ -121,26 +121,15 @@ def hero():
 
 def activity(data):
     days = [(date.fromisoformat(key), value) for key, value in sorted(data.items())]
-    first = days[0][0]
     total = sum(value["count"] for _, value in days)
     active = sum(value["count"] > 0 for _, value in days)
     busy_day, busy = max(days, key=lambda pair: pair[1]["count"])
     current_run = longest = 0
     months = defaultdict(int)
-    graph = label(28, 42, "Contribution calendar", 29, NAVY, "Georgia")
-    graph += label(772, 40, f"{total:,} contributions", 16, BLUE, anchor="end")
     for day, value in days:
-        sunday_index = (day.weekday() + 1) % 7
-        week = ((day - first).days + (first.weekday() + 1) % 7) // 7
-        square = rect(30 + week * 14, 65 + sunday_index * 14, 11, 11, LEVELS[value["level"]], 2)
-        graph += motion(square, 310 + week * 12, "pop")
         current_run = current_run + 1 if value["count"] else 0
         longest = max(longest, current_run)
         months[day.replace(day=1)] += value["count"]
-    graph += label(30, 185, f"{first:%d %b %Y}  –  {days[-1][0]:%d %b %Y}", 13, MUTED)
-    for index, color in enumerate(LEVELS):
-        graph += rect(704 + index * 14, 173, 11, 11, color, 2)
-    card("calendar.svg", f"Contribution calendar, {total:,} contributions", 800, 204, graph)
 
     peak = max(months.values())
     stats = (
@@ -148,42 +137,42 @@ def activity(data):
         f"{busy['count']} on {busy_day:%d %b %Y}"
         if total else "0 active days   ·   0-day longest streak   ·   No busiest day"
     )
-    chart = label(28, 42, "Monthly activity", 29, NAVY, "Georgia")
+    chart = label(28, 42, "Monthly activity", 29, INK, "Georgia")
     chart += label(30, 71, stats, 16, MUTED)
-    chart += rect(30, 212, 740, 1, "#b7c9ee")
+    chart += rect(30, 212, 740, 1, "#38465b")
     for index, (month, count) in enumerate(months.items()):
         width = 740 / len(months)
         x = round(30 + width * (index + 0.5))
         height = round(count * 105 / max(peak, 1))
         if height:
-            bar = rect(x - 13, 212 - height, 26, height, BLUE if count == peak else "#769bee")
+            bar = rect(x - 13, 212 - height, 26, height, BLUE if count == peak else "#527fc5")
             chart += motion(bar, 620 + index * 50, "grow")
-        chart += label(x, 205 - height, count, 12, NAVY, anchor="middle")
+        chart += label(x, 205 - height, count, 12, INK, anchor="middle")
         chart += label(x, 235, month.strftime("%b %y"), 10, MUTED, anchor="middle")
     card("monthly.svg", f"Monthly activity. {stats}", 800, 255, chart)
 
 
 def links():
     tiles = [
-        ("build", "Build", "Browse my repositories", "#e7efff", BLUE),
-        ("write", "Write", "Find me on DEV", "#fff0e9", "#9c3926"),
-        ("connect", "Connect", "Find me on LinkedIn", "#e6f4ee", "#165a47"),
+        ("build", "Build", "Browse my repositories", "#18263b", BLUE),
+        ("write", "Write", "Find me on DEV", "#322219", "#ffae8d"),
+        ("connect", "Connect", "Find me on LinkedIn", "#142d26", "#7de4bc"),
     ]
     for index, (slug, title, description, bg, accent) in enumerate(tiles):
         body = label(17, 36, title, 32, accent, "Georgia")
-        body += label(17, 64, description, 15, NAVY)
+        body += label(17, 64, description, 15, INK)
         body += label(228, 39, "↗", 23, accent, anchor="end")
         card(f"{slug}.svg", description, 245, 86, motion(body, 850 + index * 100), bg)
 
-    for index, (repo, description, stack) in enumerate([
-        ("Pharma-Buddy", "Pharmacy website", "JAVASCRIPT"),
-        ("Amplify", "Music player for the web", "HTML / CSS / JS"),
-        ("Podcast-App", "Podcast player for iPhone and iPad", "SWIFTUI"),
-    ]):
-        body = label(26, 44, repo, 27, NAVY, "Georgia")
-        body += label(27, 73, description, 16, MUTED)
-        body += label(769, 43, stack, 14, BLUE, "monospace", "end")
-        card(f"{repo}.svg", f"{repo}, {description}", 800, 96, motion(body, 1140 + index * 100))
+    icons = {
+        "codepen": '<path d="M12 2 22 9v6l-10 7L2 15V9zm0 0v6m0 8v6M2 9l10 7 10-7M2 15l10-7 10 7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>',
+        "dev": '<text x="12" y="15.5" text-anchor="middle" fill="currentColor" font-size="9" font-weight="bold" font-family="monospace">DEV</text>',
+        "x": '<path d="M3 3h5l13 18h-5zM20 3l-7 8M4 21l7-8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>',
+        "linkedin": '<path d="M5 9v11m6 0V9m0 5c0-6 8-6 8 0v6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><circle cx="5" cy="5" r="1.5" fill="currentColor"/>',
+    }
+    for slug, icon in icons.items():
+        body = f'<g transform="translate(10 10)" color="{INK}">{icon}</g>'
+        card(f"social-{slug}.svg", slug, 44, 44, body)
 
 
 def main():
