@@ -7,4 +7,4 @@
 @keyframes pop { from { opacity:0 } }
 @keyframes grow { from { opacity:.25; transform:scaleY(.06) } }
 @media (prefers-reduced-motion: reduce) { .rise,.pop,.grow { animation:none !important } }
-</style><rect x=".5" y=".5" width="43" height="43" rx="17" fill="#161b22" stroke="#38465b"/><g transform="translate(10 10)" color="#e6edf3"><path d="M3 3h5l13 18h-5zM20 3l-7 8M4 21l7-8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></g></svg>
+</style><rect x=".5" y=".5" width="43" height="43" rx="17" fill="#0d1117" stroke="#30363d"/><g transform="translate(10 10)" color="#e6edf3"><path d="M3 3h5l13 18h-5zM20 3l-7 8M4 21l7-8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></g></svg>

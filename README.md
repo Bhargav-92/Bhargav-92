@@ -15,4 +15,4 @@
 <a href="https://linkedin.com/in/bhargav-thakar"><img src="./cards/social-linkedin.svg" width="44" height="44" alt="LinkedIn"></a>
 </p>
 
-![Profile views](https://komarev.com/ghpvc/?username=Bhargav-92&label=Profile%20Views&color=70A5FD&style=flat)
+![Profile views](https://komarev.com/ghpvc/?username=Bhargav-92&label=Profile%20Views&color=30363D&style=flat)

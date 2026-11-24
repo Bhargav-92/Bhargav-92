@@ -12,6 +12,8 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 USER = "Bhargav-92"
+BACKGROUND = "#0d1117"
+BORDER = "#30363d"
 BLUE = "#82abff"
 INK = "#e6edf3"
 MUTED = "#a8b7ca"
@@ -81,7 +83,7 @@ def motion(body, delay=0, effect="rise"):
     return f'<g class="{effect}" style="animation-delay:{delay}ms">{body}</g>'
 
 
-def card(filename, title, width, height, body, background="#161b22"):
+def card(filename, title, width, height, body):
     styles = "" if os.getenv("STATIC") == "1" else """
 <style>
 .rise { animation: rise 680ms cubic-bezier(.2,.8,.2,1) both }
@@ -94,7 +96,7 @@ def card(filename, title, width, height, body, background="#161b22"):
 </style>"""
     frame = (
         f'<rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="17" '
-        f'fill="{background}" stroke="#38465b"/>'
+        f'fill="{BACKGROUND}" stroke="{BORDER}"/>'
     )
     (ROOT / "cards" / filename).write_text(
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
@@ -139,7 +141,7 @@ def activity(data):
     )
     chart = label(28, 42, "Monthly activity", 29, INK, "Georgia")
     chart += label(30, 71, stats, 16, MUTED)
-    chart += rect(30, 212, 740, 1, "#38465b")
+    chart += rect(30, 212, 740, 1, BORDER)
     for index, (month, count) in enumerate(months.items()):
         width = 740 / len(months)
         x = round(30 + width * (index + 0.5))
@@ -154,15 +156,15 @@ def activity(data):
 
 def links():
     tiles = [
-        ("build", "Build", "Browse my repositories", "#18263b", BLUE),
-        ("write", "Write", "Find me on DEV", "#322219", "#ffae8d"),
-        ("connect", "Connect", "Find me on LinkedIn", "#142d26", "#7de4bc"),
+        ("build", "Build", "Browse my repositories", BLUE),
+        ("write", "Write", "Find me on DEV", "#ffae8d"),
+        ("connect", "Connect", "Find me on LinkedIn", "#7de4bc"),
     ]
-    for index, (slug, title, description, bg, accent) in enumerate(tiles):
+    for index, (slug, title, description, accent) in enumerate(tiles):
         body = label(17, 36, title, 32, accent, "Georgia")
         body += label(17, 64, description, 15, INK)
         body += label(228, 39, "↗", 23, accent, anchor="end")
-        card(f"{slug}.svg", description, 245, 86, motion(body, 850 + index * 100), bg)
+        card(f"{slug}.svg", description, 245, 86, motion(body, 850 + index * 100))
 
     icons = {
         "codepen": '<path d="M12 2 22 9v6l-10 7L2 15V9zm0 0v6m0 8v6M2 9l10 7 10-7M2 15l10-7 10 7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>',
