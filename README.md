@@ -10,13 +10,6 @@
 <a href="https://linkedin.com/in/bhargav-thakar"><img src="./cards/connect.svg" width="32.5%" alt="Connect — find me on LinkedIn"></a>
 </p>
 
-## Featured projects
-
-<a href="https://github.com/Bhargav-92/Pharma-Buddy"><img src="./cards/Pharma-Buddy.svg" width="100%" alt="Pharma-Buddy, a pharmacy website"></a>
-
-<a href="https://github.com/Bhargav-92/Amplify"><img src="./cards/Amplify.svg" width="100%" alt="Amplify, a music player for the web"></a>
-
-<a href="https://github.com/Bhargav-92/Podcast-App"><img src="./cards/Podcast-App.svg" width="100%" alt="Podcast-App, a podcast player for iPhone and iPad"></a>
 
 [CodePen](https://codepen.io/bunny-thakar) · [DEV](https://dev.to/tkrbhargav) · [X](https://twitter.com/tkrbhargav) · [LinkedIn](https://linkedin.com/in/bhargav-thakar)
 
