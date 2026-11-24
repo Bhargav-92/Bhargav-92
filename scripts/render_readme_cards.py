@@ -1,6 +1,5 @@
 """Generate animated profile SVGs from GitHub's public contribution calendar."""
 import argparse
-from base64 import b64encode
 from collections import defaultdict
 from datetime import date
 from html import escape
@@ -109,24 +108,16 @@ def card(filename, title, width, height, body):
 def hero():
     body = motion(label(31, 109, "Bhargav Thakar", 65, INK, "Georgia"), 70)
     body += motion(label(35, 156, "I build web apps.", 21, BLUE), 220)
-    portrait = b64encode((ROOT / "data" / "pixel-portrait.png").read_bytes()).decode("ascii")
-    artwork = (
-        f'<image x="590" y="22" width="178" height="178" '
-        f'href="data:image/png;base64,{portrait}"/>'
-    )
-    if os.getenv("STATIC") != "1":
-        body += """
-<style>
-.portrait { animation: portrait-reveal 600ms steps(12, end) both }
-@keyframes portrait-reveal {
-  from { clip-path: inset(0 0 100% 0) fill-box }
-  to { clip-path: inset(0) fill-box }
-}
-@media (prefers-reduced-motion: reduce) { .portrait { animation:none } }
-</style>"""
-    body += motion(artwork, 250, "portrait")
-    card("profile-portrait.svg", "Bhargav Thakar. I build web apps.", 800, 222, body)
-
+    shades = ("#080c13", "#142443", "#234579", "#3568b8", "#5188e3", BLUE)
+    rows = (ROOT / "data" / "portrait-dots.txt").read_text(encoding="ascii").splitlines()
+    for row, values in enumerate(rows):
+        dots = "".join(
+            f'<circle cx="{592 + col * 4.4:.1f}" cy="{25 + row * 4.4:.1f}" '
+            f'r="1.8" fill="{shades[int(value)]}"/>'
+            for col, value in enumerate(values)
+        )
+        body += motion(dots, 245 + row * 13, "pop")
+    card("profile-dot-portrait.svg", "Bhargav Thakar. I build web apps.", 800, 222, body)
 
 
 def activity(data):
